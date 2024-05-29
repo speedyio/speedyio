@@ -6,31 +6,46 @@
 <title>Coming Soon - Speedyio</title>
 <style>
     body {
-        font-family: Arial, sans-serif;
+        font-family: Consolas, monospace;
         background-color: #121212;
         color: white;
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
         height: 100vh;
         margin: 0;
     }
-    h1, h2 {
-        text-align: center;
-    }
     h1 {
         font-size: 48px;
+        color: #86ead4; /* Light green for header */
     }
     h2 {
         font-size: 24px;
         color: #bbb;
     }
+    a.button {
+        display: block; /* Make the link block to center it */
+        text-align: center;
+        width: 100px;
+        padding: 10px 20px;
+        background-color: #003B38; /* Dark green for the button */
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        margin-top: 20px;
+    }
+    a.button:hover {
+        background-color: #025D58; /* Slightly lighter green on hover */
+    }
 </style>
 </head>
 <body>
-    <div>
-        <h1>Speedyio</h1>
-        <h2>Coming Soon</h2>
-    </div>
+    <h1>speedyio</h1>
+    <h2>Coming Soon</h2>
+    <br />
+    <a href="mailto:shaleen@speedyio.com" class="button">Contact Us</a>
 </body>
 </html>
